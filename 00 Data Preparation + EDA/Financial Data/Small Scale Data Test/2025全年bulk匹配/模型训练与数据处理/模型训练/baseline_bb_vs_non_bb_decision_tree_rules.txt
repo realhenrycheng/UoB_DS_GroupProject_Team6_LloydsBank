@@ -1,0 +1,37 @@
+|--- employees <= -0.06
+|   |--- financial_core_score_raw <= 0.08
+|   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |--- Accounts_AccountCategory_GROUP <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- Accounts_AccountCategory_GROUP >  0.50
+|   |   |   |   |--- class: BB
+|   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |--- debtors_to_current_assets <= -0.03
+|   |   |   |   |--- class: non_BB
+|   |   |   |--- debtors_to_current_assets >  -0.03
+|   |   |   |   |--- class: BB
+|   |--- financial_core_score_raw >  0.08
+|   |   |--- primary_sector_Real Estate <= 0.50
+|   |   |   |--- debtors_to_current_assets <= -0.02
+|   |   |   |   |--- class: non_BB
+|   |   |   |--- debtors_to_current_assets >  -0.02
+|   |   |   |   |--- class: BB
+|   |   |--- primary_sector_Real Estate >  0.50
+|   |   |   |--- class: BB
+|--- employees >  -0.06
+|   |--- current_assets <= -0.40
+|   |   |--- financial_conservative_score <= 0.01
+|   |   |   |--- creditors_to_current_assets <= -0.03
+|   |   |   |   |--- class: BB
+|   |   |   |--- creditors_to_current_assets >  -0.03
+|   |   |   |   |--- class: BB
+|   |   |--- financial_conservative_score >  0.01
+|   |   |   |--- class: non_BB
+|   |--- current_assets >  -0.40
+|   |   |--- profit_loss <= -0.32
+|   |   |   |--- class: BB
+|   |   |--- profit_loss >  -0.32
+|   |   |   |--- debtors_to_current_assets <= -0.02
+|   |   |   |   |--- class: non_BB
+|   |   |   |--- debtors_to_current_assets >  -0.02
+|   |   |   |   |--- class: non_BB

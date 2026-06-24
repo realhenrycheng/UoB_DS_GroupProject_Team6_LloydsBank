@@ -4,3 +4,14 @@
 
 .DS_Store
 **/.DS_Store
+
+# Large local data - keep outside GitHub
+**/Local Large Data/
+**/Accounts Data_2025.1_2026.5/
+**/UKcompanies_8_sectors_cleaned.csv
+**/*.zip
+# Large generated financial tables
+**/*_facts_long*.csv
+**/*_candidate*.csv
+**/candidate_accounts_bulk_matches_all.csv
+**/candidate_accounts_bulk_matches_latest.csv

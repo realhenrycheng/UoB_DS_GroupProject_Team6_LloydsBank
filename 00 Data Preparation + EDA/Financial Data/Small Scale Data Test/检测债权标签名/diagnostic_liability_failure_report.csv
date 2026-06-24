@@ -1,0 +1,13 @@
+﻿standard_field,expected_tag,observed_rows,observed_companies,instant_match_rate,duration_end_match_rate,diagnosis
+creditors_due_within_one_year,CreditorsDueWithinOneYear,0,0,,,tag_not_observed_in_sample
+creditors_due_within_one_year,CreditorsAmountsFallingDueWithinOneYear,0,0,,,tag_not_observed_in_sample
+creditors_due_within_one_year,CurrentLiabilities,0,0,,,tag_not_observed_in_sample
+creditors_due_within_one_year,TotalCurrentLiabilities,0,0,,,tag_not_observed_in_sample
+creditors_due_after_one_year,CreditorsDueAfterOneYear,0,0,,,tag_not_observed_in_sample
+creditors_due_after_one_year,CreditorsAmountsFallingDueAfterMoreThanOneYear,0,0,,,tag_not_observed_in_sample
+creditors_due_after_one_year,NoncurrentLiabilities,0,0,,,tag_not_observed_in_sample
+net_assets,NetAssetsLiabilities,503,260,0.5248508946322068,0.0,likely_context_filter_issue
+net_assets,NetAssets,0,0,,,tag_not_observed_in_sample
+current_assets,CurrentAssets,525,275,0.5257142857142857,0.0,likely_context_filter_issue
+cash,CashBankOnHand,281,127,0.5231316725978647,0.0,likely_context_filter_issue
+cash,CashAndCashEquivalents,0,0,,,tag_not_observed_in_sample

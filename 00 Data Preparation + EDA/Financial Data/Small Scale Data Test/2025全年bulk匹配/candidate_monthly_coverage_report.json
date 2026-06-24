@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-06-23T15:06:56",
+  "candidate_file": "E:\\000硕士毕设\\财务数据\\accounts_download_candidates_top.csv",
+  "monthly_zip_dir": "E:\\000硕士毕设\\bulk zip\\monthly",
+  "output_dir": "E:\\000硕士毕设\\财务数据\\小样本测试\\2025全年bulk匹配",
+  "match_selection_mode": "all_files",
+  "zip_count": 17,
+  "zip_names": [
+    "Accounts_Monthly_Data-April2025.zip",
+    "Accounts_Monthly_Data-April2026.zip",
+    "Accounts_Monthly_Data-August2025.zip",
+    "Accounts_Monthly_Data-December2025.zip",
+    "Accounts_Monthly_Data-February2025.zip",
+    "Accounts_Monthly_Data-February2026.zip",
+    "Accounts_Monthly_Data-January2025.zip",
+    "Accounts_Monthly_Data-January2026.zip",
+    "Accounts_Monthly_Data-July2025.zip",
+    "Accounts_Monthly_Data-June2025.zip",
+    "Accounts_Monthly_Data-March2025.zip",
+    "Accounts_Monthly_Data-March2026.zip",
+    "Accounts_Monthly_Data-May2025.zip",
+    "Accounts_Monthly_Data-May2026.zip",
+    "Accounts_Monthly_Data-November2025.zip",
+    "Accounts_Monthly_Data-October2025.zip",
+    "Accounts_Monthly_Data-September2025.zip"
+  ],
+  "combined_unique_companies_in_zips": 3876826,
+  "candidate_companies": 50000,
+  "matched_companies": 28396,
+  "matched_rate": 0.56792,
+  "matched_files_all": 36595,
+  "extracted_files": 36595,
+  "turnover_companies": 5208,
+  "turnover_rate_all_candidates": 0.10416,
+  "turnover_rate_matched": 0.18340611353711792,
+  "turnover_files": 6210,
+  "parse_errors": 0,
+  "evidence_tier_counts_file_level": {
+    "T2_balance_sheet_rich": 29429,
+    "T1_observed_turnover": 6210,
+    "T4_account_category_only": 483,
+    "T3_balance_sheet_partial": 473
+  },
+  "zip_summary": [
+    {
+      "zip_name": "Accounts_Monthly_Data-April2025.zip",
+      "parsed_account_files": 264543,
+      "unique_companies": 263466,
+      "matched_candidate_files": 1491
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-April2026.zip",
+      "parsed_account_files": 263094,
+      "unique_companies": 261992,
+      "matched_candidate_files": 1621
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-August2025.zip",
+      "parsed_account_files": 261885,
+      "unique_companies": 260889,
+      "matched_candidate_files": 1651
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-December2025.zip",
+      "parsed_account_files": 499784,
+      "unique_companies": 498619,
+      "matched_candidate_files": 5124
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-February2025.zip",
+      "parsed_account_files": 250276,
+      "unique_companies": 249177,
+      "matched_candidate_files": 1479
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-February2026.zip",
+      "parsed_account_files": 258471,
+      "unique_companies": 257235,
+      "matched_candidate_files": 1525
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-January2025.zip",
+      "parsed_account_files": 287375,
+      "unique_companies": 286358,
+      "matched_candidate_files": 1580
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-January2026.zip",
+      "parsed_account_files": 289256,
+      "unique_companies": 288144,
+      "matched_candidate_files": 1598
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-July2025.zip",
+      "parsed_account_files": 274930,
+      "unique_companies": 273971,
+      "matched_candidate_files": 1793
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-June2025.zip",
+      "parsed_account_files": 298610,
+      "unique_companies": 297465,
+      "matched_candidate_files": 2192
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-March2025.zip",
+      "parsed_account_files": 314390,
+      "unique_companies": 313197,
+      "matched_candidate_files": 2342
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-March2026.zip",
+      "parsed_account_files": 342574,
+      "unique_companies": 341126,
+      "matched_candidate_files": 2511
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-May2025.zip",
+      "parsed_account_files": 274232,
+      "unique_companies": 273046,
+      "matched_candidate_files": 1708
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-May2026.zip",
+      "parsed_account_files": 258176,
+      "unique_companies": 257113,
+      "matched_candidate_files": 1646
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-November2025.zip",
+      "parsed_account_files": 298461,
+      "unique_companies": 297318,
+      "matched_candidate_files": 1876
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-October2025.zip",
+      "parsed_account_files": 304409,
+      "unique_companies": 303201,
+      "matched_candidate_files": 1847
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-September2025.zip",
+      "parsed_account_files": 376964,
+      "unique_companies": 375808,
+      "matched_candidate_files": 4611
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+|--- employees <= -0.05
+|   |--- current_assets <= -0.32
+|   |   |--- Accounts_AccountCategory_GROUP <= 0.50
+|   |   |   |--- current_assets <= -0.40
+|   |   |   |   |--- class: BB
+|   |   |   |--- current_assets >  -0.40
+|   |   |   |   |--- class: BB
+|   |   |--- Accounts_AccountCategory_GROUP >  0.50
+|   |   |   |--- class: BB
+|   |--- current_assets >  -0.32
+|   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |--- primary_sector_Manufacturing <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Manufacturing >  0.50
+|   |   |   |   |--- class: non_BB
+|   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |--- creditors_total <= 0.33
+|   |   |   |   |--- class: non_BB
+|   |   |   |--- creditors_total >  0.33
+|   |   |   |   |--- class: BB
+|--- employees >  -0.05
+|   |--- current_assets <= -0.42
+|   |   |--- creditors_total <= -0.30
+|   |   |   |--- class: BB
+|   |   |--- creditors_total >  -0.30
+|   |   |   |--- equity <= -0.09
+|   |   |   |   |--- class: BB
+|   |   |   |--- equity >  -0.09
+|   |   |   |   |--- class: non_BB
+|   |--- current_assets >  -0.42
+|   |   |--- profit_loss <= -0.32
+|   |   |   |--- debtors <= -0.10
+|   |   |   |   |--- class: BB
+|   |   |   |--- debtors >  -0.10
+|   |   |   |   |--- class: non_BB
+|   |   |--- profit_loss >  -0.32
+|   |   |   |--- creditors_total <= -0.31
+|   |   |   |   |--- class: BB
+|   |   |   |--- creditors_total >  -0.31
+|   |   |   |   |--- class: non_BB
