@@ -1,0 +1,7 @@
+﻿task,model,metric,mean,std
+multiclass_segment,logistic_regression,balanced_accuracy,0.766656449354095,0.011703270464087418
+multiclass_segment,logistic_regression,f1_macro,0.7199519461155404,0.01015058117659012
+multiclass_segment,logistic_regression,f1_weighted,0.7394117037336249,0.010039598734707108
+multiclass_segment,decision_tree_depth4,balanced_accuracy,0.7388091767097099,0.028015373552581862
+multiclass_segment,decision_tree_depth4,f1_macro,0.7010078051811698,0.026352634518635874
+multiclass_segment,decision_tree_depth4,f1_weighted,0.7316245356407141,0.02646960763940454

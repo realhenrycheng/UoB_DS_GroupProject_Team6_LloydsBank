@@ -1,0 +1,129 @@
+﻿task,model,class,feature,importance,abs_importance
+BB_vs_non_BB,logistic_regression,non_BB,negative_net_assets_flag,5.465358689853345,5.465358689853345
+BB_vs_non_BB,logistic_regression,non_BB,negative_equity_flag,5.163761683275974,5.163761683275974
+BB_vs_non_BB,logistic_regression,non_BB,primary_sector_Real Estate,-2.0827773206092477,2.0827773206092477
+BB_vs_non_BB,logistic_regression,non_BB,current_assets,1.7331390310182673,1.7331390310182673
+BB_vs_non_BB,logistic_regression,non_BB,financial_conservative_score_raw,1.4536337494392042,1.4536337494392042
+BB_vs_non_BB,logistic_regression,non_BB,financial_conservative_score,1.4536337494392022,1.4536337494392022
+BB_vs_non_BB,logistic_regression,non_BB,has_employee_count,1.4369517473231679,1.4369517473231679
+BB_vs_non_BB,logistic_regression,non_BB,has_employees,1.4369517473231679,1.4369517473231679
+BB_vs_non_BB,logistic_regression,non_BB,primary_sector_Wholesale & Retail,1.4321057934580936,1.4321057934580936
+BB_vs_non_BB,logistic_regression,non_BB,Accounts_AccountCategory_GROUP,1.2572493811195793,1.2572493811195793
+BB_vs_non_BB,logistic_regression,non_BB,debtors,-1.2189697010692002,1.2189697010692002
+BB_vs_non_BB,logistic_regression,non_BB,cash_heavy_flag,-1.1395814793169297,1.1395814793169297
+BB_vs_non_BB,logistic_regression,non_BB,primary_sector_Manufacturing,0.9980045749342673,0.9980045749342673
+BB_vs_non_BB,logistic_regression,non_BB,available_core_balance_field_count,-0.9526572483973486,0.9526572483973486
+BB_vs_non_BB,logistic_regression,non_BB,has_creditors_total,-0.9487955318276915,0.9487955318276915
+BB_vs_non_BB,logistic_regression,non_BB,asset_heavy_flag,-0.7294453855964396,0.7294453855964396
+BB_vs_non_BB,logistic_regression,non_BB,account_category_group_medium_likelihood,-0.7105743445351091,0.7105743445351091
+BB_vs_non_BB,logistic_regression,non_BB,profit_loss_to_current_assets,-0.6984448370921927,0.6984448370921927
+BB_vs_non_BB,logistic_regression,non_BB,creditor_heavy_flag,0.694896066431584,0.694896066431584
+BB_vs_non_BB,logistic_regression,non_BB,financial_core_score_raw,0.6818509293931199,0.6818509293931199
+BB_vs_non_BB,logistic_regression,non_BB,financial_core_score,0.6818509293931126,0.6818509293931126
+BB_vs_non_BB,logistic_regression,non_BB,debtors_to_current_assets,0.6582495532768863,0.6582495532768863
+BB_vs_non_BB,logistic_regression,non_BB,account_category_group_high_likelihood,0.638354830254461,0.638354830254461
+BB_vs_non_BB,logistic_regression,non_BB,Accounts_AccountCategory_TOTAL EXEMPTION FULL,-0.6063680788789819,0.6063680788789819
+BB_vs_non_BB,logistic_regression,non_BB,low_employee_high_asset_flag,-0.5977146665859332,0.5977146665859332
+BB_vs_non_BB,logistic_regression,non_BB,has_current_assets,-0.5971929538503055,0.5971929538503055
+BB_vs_non_BB,logistic_regression,non_BB,equity,-0.5778896480984204,0.5778896480984204
+BB_vs_non_BB,logistic_regression,non_BB,has_equity,-0.5265665564551578,0.5265665564551578
+BB_vs_non_BB,logistic_regression,non_BB,net_assets_liabilities,-0.5210773554241134,0.5210773554241134
+BB_vs_non_BB,logistic_regression,non_BB,Accounts_AccountCategory_FULL,-0.4900672178400657,0.4900672178400657
+BB_vs_non_BB,logistic_regression,non_BB,debtor_heavy_flag,-0.48104170845070937,0.48104170845070937
+BB_vs_non_BB,logistic_regression,non_BB,matched_zip_count,0.4659170279481767,0.4659170279481767
+BB_vs_non_BB,logistic_regression,non_BB,has_cash,0.4416365925904292,0.4416365925904292
+BB_vs_non_BB,logistic_regression,non_BB,available_proxy_field_count,0.4188554568777813,0.4188554568777813
+BB_vs_non_BB,logistic_regression,non_BB,log_cash_per_employee,-0.4074753806868417,0.4074753806868417
+BB_vs_non_BB,logistic_regression,non_BB,has_debtors,-0.38926824276190564,0.38926824276190564
+BB_vs_non_BB,logistic_regression,non_BB,log_creditors_per_employee,-0.3622316390041734,0.3622316390041734
+BB_vs_non_BB,logistic_regression,non_BB,Accounts_AccountCategory_SMALL,-0.3579025943072797,0.3579025943072797
+BB_vs_non_BB,logistic_regression,non_BB,log_current_assets_per_employee,0.357694171451811,0.357694171451811
+BB_vs_non_BB,logistic_regression,non_BB,has_net_assets_liabilities,-0.34704398604118963,0.34704398604118963
+BB_vs_non_BB,logistic_regression,non_BB,primary_sector_Healthcare,-0.32918587485481704,0.32918587485481704
+BB_vs_non_BB,logistic_regression,non_BB,log_profit_loss_per_employee,0.3120308934472648,0.3120308934472648
+BB_vs_non_BB,logistic_regression,non_BB,cash_to_current_assets,0.29332618798821175,0.29332618798821175
+BB_vs_non_BB,logistic_regression,non_BB,has_balance_sheet_core,-0.258296754483345,0.258296754483345
+BB_vs_non_BB,logistic_regression,non_BB,Accounts_AccountCategory_AUDIT EXEMPTION SUBSIDIARY,0.2536963286511482,0.2536963286511482
+BB_vs_non_BB,logistic_regression,non_BB,"primary_sector_Technology, legal & professional",-0.2447595899766939,0.2447595899766939
+BB_vs_non_BB,logistic_regression,non_BB,creditors_to_current_assets,0.24163013121033328,0.24163013121033328
+BB_vs_non_BB,logistic_regression,non_BB,net_assets_to_current_assets,-0.24143434126354862,0.24143434126354862
+BB_vs_non_BB,logistic_regression,non_BB,primary_sector_Agriculture,0.21347674846332942,0.21347674846332942
+BB_vs_non_BB,logistic_regression,non_BB,log_debtors_per_employee,-0.21003483137777806,0.21003483137777806
+BB_vs_non_BB,logistic_regression,non_BB,company_account_file_rows,-0.19367474503955845,0.19367474503955845
+BB_vs_non_BB,logistic_regression,non_BB,matched_file_count,-0.19367474503955845,0.19367474503955845
+BB_vs_non_BB,logistic_regression,non_BB,Accounts_AccountCategory_MEDIUM,-0.12882733302505683,0.12882733302505683
+BB_vs_non_BB,logistic_regression,non_BB,cash,-0.11036776113623763,0.11036776113623763
+BB_vs_non_BB,logistic_regression,non_BB,primary_sector_Fast growth & emerging sector,-0.10504393727465916,0.10504393727465916
+BB_vs_non_BB,logistic_regression,non_BB,borrowings_to_current_assets,0.09929718418227076,0.09929718418227076
+BB_vs_non_BB,logistic_regression,non_BB,employees,0.09633120127850842,0.09633120127850842
+BB_vs_non_BB,logistic_regression,non_BB,creditors_total,0.08403018469578186,0.08403018469578186
+BB_vs_non_BB,logistic_regression,non_BB,financial_evidence_tier_T1_observed_turnover,-0.07221951428065007,0.07221951428065007
+BB_vs_non_BB,logistic_regression,non_BB,equity_to_current_assets,-0.07165517198910798,0.07165517198910798
+BB_vs_non_BB,logistic_regression,non_BB,profit_loss,-0.062255107595793065,0.062255107595793065
+BB_vs_non_BB,logistic_regression,non_BB,borrowings,-0.05665941326202929,0.05665941326202929
+BB_vs_non_BB,logistic_regression,non_BB,"primary_sector_Public sector, education & charities",0.04596009157906573,0.04596009157906573
+BB_vs_non_BB,logistic_regression,non_BB,financial_data_quality_score,0.03942785072643038,0.03942785072643038
+BB_vs_non_BB,decision_tree_depth4,,employees,0.6296006034113114,0.6296006034113114
+BB_vs_non_BB,decision_tree_depth4,,current_assets,0.11033313394352995,0.11033313394352995
+BB_vs_non_BB,decision_tree_depth4,,financial_core_score_raw,0.09611577889456398,0.09611577889456398
+BB_vs_non_BB,decision_tree_depth4,,primary_sector_Real Estate,0.05011240444357381,0.05011240444357381
+BB_vs_non_BB,decision_tree_depth4,,debtors_to_current_assets,0.043743151280878856,0.043743151280878856
+BB_vs_non_BB,decision_tree_depth4,,profit_loss,0.028512526375282437,0.028512526375282437
+BB_vs_non_BB,decision_tree_depth4,,financial_conservative_score,0.015609448322292817,0.015609448322292817
+BB_vs_non_BB,decision_tree_depth4,,primary_sector_Wholesale & Retail,0.012202478217511492,0.012202478217511492
+BB_vs_non_BB,decision_tree_depth4,,Accounts_AccountCategory_GROUP,0.0085631255155424,0.0085631255155424
+BB_vs_non_BB,decision_tree_depth4,,creditors_to_current_assets,0.005207349595512976,0.005207349595512976
+BB_vs_non_BB,decision_tree_depth4,,financial_data_quality_score,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,equity,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,debtors,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,available_proxy_field_count,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,net_assets_liabilities,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,available_core_balance_field_count,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,borrowings,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,creditors_total,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,cash_to_current_assets,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,net_assets_to_current_assets,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,equity_to_current_assets,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,borrowings_to_current_assets,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,profit_loss_to_current_assets,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,log_current_assets_per_employee,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,log_creditors_per_employee,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,log_debtors_per_employee,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,log_cash_per_employee,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,log_profit_loss_per_employee,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,company_account_file_rows,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,cash,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,financial_conservative_score_raw,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,financial_core_score,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_current_assets,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,matched_zip_count,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,matched_file_count,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_net_assets_liabilities,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_creditors_total,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_equity,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_cash,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_debtors,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,cash_heavy_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,debtor_heavy_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,creditor_heavy_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,asset_heavy_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,low_employee_high_asset_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_employees,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_balance_sheet_core,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,has_employee_count,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,Accounts_AccountCategory_AUDIT EXEMPTION SUBSIDIARY,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,negative_net_assets_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,negative_equity_flag,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,Accounts_AccountCategory_FULL,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,Accounts_AccountCategory_TOTAL EXEMPTION FULL,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,account_category_group_high_likelihood,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,Accounts_AccountCategory_MEDIUM,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,Accounts_AccountCategory_SMALL,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,primary_sector_Agriculture,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,account_category_group_medium_likelihood,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,primary_sector_Fast growth & emerging sector,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,primary_sector_Healthcare,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,"primary_sector_Public sector, education & charities",0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,primary_sector_Manufacturing,0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,"primary_sector_Technology, legal & professional",0.0,0.0
+BB_vs_non_BB,decision_tree_depth4,,financial_evidence_tier_T1_observed_turnover,0.0,0.0

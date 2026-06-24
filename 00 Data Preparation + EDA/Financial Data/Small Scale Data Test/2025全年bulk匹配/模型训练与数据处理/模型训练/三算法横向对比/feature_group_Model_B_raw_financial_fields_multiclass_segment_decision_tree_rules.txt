@@ -1,0 +1,43 @@
+|--- employees <= -0.05
+|   |--- current_assets <= -0.32
+|   |   |--- Accounts_AccountCategory_GROUP <= 0.50
+|   |   |   |--- current_assets <= -0.37
+|   |   |   |   |--- class: BB
+|   |   |   |--- current_assets >  -0.37
+|   |   |   |   |--- class: BB
+|   |   |--- Accounts_AccountCategory_GROUP >  0.50
+|   |   |   |--- class: BB
+|   |--- current_assets >  -0.32
+|   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |--- cash <= -0.25
+|   |   |   |   |--- class: BB
+|   |   |   |--- cash >  -0.25
+|   |   |   |   |--- class: BB
+|   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |--- debtors <= -0.11
+|   |   |   |   |--- class: SME
+|   |   |   |--- debtors >  -0.11
+|   |   |   |   |--- class: MidCorporate
+|--- employees >  -0.05
+|   |--- current_assets <= -0.02
+|   |   |--- current_assets <= -0.42
+|   |   |   |--- creditors_total <= -0.30
+|   |   |   |   |--- class: BB
+|   |   |   |--- creditors_total >  -0.30
+|   |   |   |   |--- class: BB
+|   |   |--- current_assets >  -0.42
+|   |   |   |--- creditors_total <= -0.19
+|   |   |   |   |--- class: SME
+|   |   |   |--- creditors_total >  -0.19
+|   |   |   |   |--- class: SME
+|   |--- current_assets >  -0.02
+|   |   |--- creditors_total <= -0.18
+|   |   |   |--- profit_loss <= 0.03
+|   |   |   |   |--- class: SME
+|   |   |   |--- profit_loss >  0.03
+|   |   |   |   |--- class: MidCorporate
+|   |   |--- creditors_total >  -0.18
+|   |   |   |--- employees <= -0.05
+|   |   |   |   |--- class: MidCorporate
+|   |   |   |--- employees >  -0.05
+|   |   |   |   |--- class: MidCorporate
