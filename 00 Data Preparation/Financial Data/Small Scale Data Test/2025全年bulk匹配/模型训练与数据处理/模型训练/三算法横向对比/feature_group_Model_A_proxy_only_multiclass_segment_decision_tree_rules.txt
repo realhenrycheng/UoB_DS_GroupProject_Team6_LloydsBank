@@ -1,0 +1,43 @@
+|--- financial_core_score_raw <= 0.02
+|   |--- primary_sector_Real Estate <= 0.50
+|   |   |--- available_proxy_field_count <= -0.69
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: BB
+|   |   |--- available_proxy_field_count >  -0.69
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: SME
+|   |--- primary_sector_Real Estate >  0.50
+|   |   |--- Accounts_AccountCategory_TOTAL EXEMPTION FULL <= 0.50
+|   |   |   |--- Accounts_AccountCategory_FULL <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- Accounts_AccountCategory_FULL >  0.50
+|   |   |   |   |--- class: BB
+|   |   |--- Accounts_AccountCategory_TOTAL EXEMPTION FULL >  0.50
+|   |   |   |--- class: BB
+|--- financial_core_score_raw >  0.02
+|   |--- financial_core_score_raw <= 0.53
+|   |   |--- primary_sector_Real Estate <= 0.50
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: SME
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: MidCorporate
+|   |   |--- primary_sector_Real Estate >  0.50
+|   |   |   |--- Accounts_AccountCategory_FULL <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- Accounts_AccountCategory_FULL >  0.50
+|   |   |   |   |--- class: BB
+|   |--- financial_core_score_raw >  0.53
+|   |   |--- financial_core_score_raw <= 0.66
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: MidCorporate
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: MidCorporate
+|   |   |--- financial_core_score_raw >  0.66
+|   |   |   |--- primary_sector_Real Estate <= 0.50
+|   |   |   |   |--- class: MidCorporate
+|   |   |   |--- primary_sector_Real Estate >  0.50
+|   |   |   |   |--- class: BB

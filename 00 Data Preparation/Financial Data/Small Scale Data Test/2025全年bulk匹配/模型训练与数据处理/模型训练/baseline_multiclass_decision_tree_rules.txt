@@ -1,0 +1,37 @@
+|--- financial_core_score_raw <= 0.02
+|   |--- employees <= -0.05
+|   |   |--- Accounts_AccountCategory_GROUP <= 0.50
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: BB
+|   |   |--- Accounts_AccountCategory_GROUP >  0.50
+|   |   |   |--- class: BB
+|   |--- employees >  -0.05
+|   |   |--- current_assets <= -0.42
+|   |   |   |--- class: BB
+|   |   |--- current_assets >  -0.42
+|   |   |   |--- current_assets <= -0.03
+|   |   |   |   |--- class: SME
+|   |   |   |--- current_assets >  -0.03
+|   |   |   |   |--- class: MidCorporate
+|--- financial_core_score_raw >  0.02
+|   |--- current_assets <= -0.02
+|   |   |--- employees <= -0.05
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: MidCorporate
+|   |   |--- employees >  -0.05
+|   |   |   |--- creditors_total <= -0.22
+|   |   |   |   |--- class: SME
+|   |   |   |--- creditors_total >  -0.22
+|   |   |   |   |--- class: SME
+|   |--- current_assets >  -0.02
+|   |   |--- primary_sector_Real Estate <= 0.50
+|   |   |   |--- creditors_total <= -0.18
+|   |   |   |   |--- class: SME
+|   |   |   |--- creditors_total >  -0.18
+|   |   |   |   |--- class: MidCorporate
+|   |   |--- primary_sector_Real Estate >  0.50
+|   |   |   |--- class: BB

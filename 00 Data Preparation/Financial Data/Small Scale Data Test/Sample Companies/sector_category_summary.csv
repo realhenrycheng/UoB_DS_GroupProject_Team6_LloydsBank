@@ -1,0 +1,208 @@
+﻿primary_sector,Accounts_AccountCategory_clean,account_category_group,download_priority,rows
+Agriculture,TOTAL EXEMPTION FULL,medium_likelihood,priority_download,15485
+Agriculture,MICRO ENTITY,low_likelihood,coverage_sample,12386
+Agriculture,NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,5805
+Agriculture,DORMANT,exclude_or_no_accounts,low_priority_check,2792
+Agriculture,MICRO ENTITY,low_likelihood,exclude_from_initial_download,1544
+Agriculture,UNAUDITED ABRIDGED,medium_likelihood,priority_download,1310
+Agriculture,TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,1072
+Agriculture,NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,676
+Agriculture,DORMANT,exclude_or_no_accounts,exclude_from_initial_download,531
+Agriculture,SMALL,medium_likelihood,priority_download,471
+Agriculture,FULL,high_likelihood,priority_download,410
+Agriculture,UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,331
+Agriculture,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,149
+Agriculture,GROUP,high_likelihood,priority_download,137
+Agriculture,MEDIUM,high_likelihood,priority_download,87
+Agriculture,TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,55
+Agriculture,SMALL,medium_likelihood,exclude_from_initial_download,43
+Agriculture,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,32
+Agriculture,FULL,high_likelihood,exclude_from_initial_download,32
+Agriculture,AUDITED ABRIDGED,medium_likelihood,priority_download,14
+Agriculture,GROUP,high_likelihood,exclude_from_initial_download,12
+Agriculture,AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,7
+Agriculture,FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,6
+Agriculture,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,exclude_from_initial_download,2
+Agriculture,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,2
+Agriculture,MEDIUM,high_likelihood,exclude_from_initial_download,2
+Fast growth & emerging sector,MICRO ENTITY,low_likelihood,coverage_sample,121421
+Fast growth & emerging sector,NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,100372
+Fast growth & emerging sector,TOTAL EXEMPTION FULL,medium_likelihood,priority_download,58855
+Fast growth & emerging sector,DORMANT,exclude_or_no_accounts,low_priority_check,34588
+Fast growth & emerging sector,MICRO ENTITY,low_likelihood,exclude_from_initial_download,13316
+Fast growth & emerging sector,UNAUDITED ABRIDGED,medium_likelihood,priority_download,7947
+Fast growth & emerging sector,NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,7495
+Fast growth & emerging sector,TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,5871
+Fast growth & emerging sector,DORMANT,exclude_or_no_accounts,exclude_from_initial_download,5483
+Fast growth & emerging sector,SMALL,medium_likelihood,priority_download,3949
+Fast growth & emerging sector,FULL,high_likelihood,priority_download,3241
+Fast growth & emerging sector,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,1495
+Fast growth & emerging sector,GROUP,high_likelihood,priority_download,1107
+Fast growth & emerging sector,UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,1075
+Fast growth & emerging sector,SMALL,medium_likelihood,exclude_from_initial_download,291
+Fast growth & emerging sector,MEDIUM,high_likelihood,priority_download,245
+Fast growth & emerging sector,FULL,high_likelihood,exclude_from_initial_download,239
+Fast growth & emerging sector,TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,235
+Fast growth & emerging sector,GROUP,high_likelihood,exclude_from_initial_download,86
+Fast growth & emerging sector,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,72
+Fast growth & emerging sector,AUDITED ABRIDGED,medium_likelihood,priority_download,55
+Fast growth & emerging sector,FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,8
+Fast growth & emerging sector,MEDIUM,high_likelihood,exclude_from_initial_download,5
+Fast growth & emerging sector,AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,2
+Fast growth & emerging sector,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,1
+Healthcare,MICRO ENTITY,low_likelihood,coverage_sample,82578
+Healthcare,TOTAL EXEMPTION FULL,medium_likelihood,priority_download,58642
+Healthcare,NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,46199
+Healthcare,DORMANT,exclude_or_no_accounts,low_priority_check,16421
+Healthcare,MICRO ENTITY,low_likelihood,exclude_from_initial_download,8955
+Healthcare,UNAUDITED ABRIDGED,medium_likelihood,priority_download,7876
+Healthcare,TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,4530
+Healthcare,NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,3367
+Healthcare,DORMANT,exclude_or_no_accounts,exclude_from_initial_download,3108
+Healthcare,SMALL,medium_likelihood,priority_download,2720
+Healthcare,FULL,high_likelihood,priority_download,2296
+Healthcare,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,2174
+Healthcare,GROUP,high_likelihood,priority_download,984
+Healthcare,UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,864
+Healthcare,MEDIUM,high_likelihood,priority_download,319
+Healthcare,SMALL,medium_likelihood,exclude_from_initial_download,193
+Healthcare,FULL,high_likelihood,exclude_from_initial_download,182
+Healthcare,TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,118
+Healthcare,AUDITED ABRIDGED,medium_likelihood,priority_download,82
+Healthcare,GROUP,high_likelihood,exclude_from_initial_download,43
+Healthcare,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,39
+Healthcare,FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,16
+Healthcare,MEDIUM,high_likelihood,exclude_from_initial_download,11
+Healthcare,AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,7
+Manufacturing,MICRO ENTITY,low_likelihood,coverage_sample,59352
+Manufacturing,TOTAL EXEMPTION FULL,medium_likelihood,priority_download,56663
+Manufacturing,NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,40876
+Manufacturing,DORMANT,exclude_or_no_accounts,low_priority_check,22769
+Manufacturing,MICRO ENTITY,low_likelihood,exclude_from_initial_download,10361
+Manufacturing,UNAUDITED ABRIDGED,medium_likelihood,priority_download,7219
+Manufacturing,TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,7177
+Manufacturing,FULL,high_likelihood,priority_download,6888
+Manufacturing,NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,4625
+Manufacturing,SMALL,medium_likelihood,priority_download,4583
+Manufacturing,DORMANT,exclude_or_no_accounts,exclude_from_initial_download,3686
+Manufacturing,UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,1424
+Manufacturing,GROUP,high_likelihood,priority_download,1370
+Manufacturing,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,1213
+Manufacturing,MEDIUM,high_likelihood,priority_download,1088
+Manufacturing,FULL,high_likelihood,exclude_from_initial_download,672
+Manufacturing,SMALL,medium_likelihood,exclude_from_initial_download,448
+Manufacturing,TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,300
+Manufacturing,GROUP,high_likelihood,exclude_from_initial_download,148
+Manufacturing,AUDITED ABRIDGED,medium_likelihood,priority_download,123
+Manufacturing,MEDIUM,high_likelihood,exclude_from_initial_download,91
+Manufacturing,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,68
+Manufacturing,AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,30
+Manufacturing,FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,5
+Manufacturing,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,4
+Manufacturing,PARTIAL EXEMPTION,medium_likelihood,priority_download,1
+"Public sector, education & charities",MICRO ENTITY,low_likelihood,coverage_sample,45902
+"Public sector, education & charities",TOTAL EXEMPTION FULL,medium_likelihood,priority_download,36986
+"Public sector, education & charities",NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,36291
+"Public sector, education & charities",DORMANT,exclude_or_no_accounts,low_priority_check,13878
+"Public sector, education & charities",MICRO ENTITY,low_likelihood,exclude_from_initial_download,4228
+"Public sector, education & charities",FULL,high_likelihood,priority_download,3915
+"Public sector, education & charities",UNAUDITED ABRIDGED,medium_likelihood,priority_download,3233
+"Public sector, education & charities",SMALL,medium_likelihood,priority_download,3099
+"Public sector, education & charities",TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,2837
+"Public sector, education & charities",NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,2719
+"Public sector, education & charities",DORMANT,exclude_or_no_accounts,exclude_from_initial_download,1923
+"Public sector, education & charities",GROUP,high_likelihood,priority_download,1400
+"Public sector, education & charities",AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,795
+"Public sector, education & charities",UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,302
+"Public sector, education & charities",FULL,high_likelihood,exclude_from_initial_download,215
+"Public sector, education & charities",SMALL,medium_likelihood,exclude_from_initial_download,163
+"Public sector, education & charities",MEDIUM,high_likelihood,priority_download,87
+"Public sector, education & charities",TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,48
+"Public sector, education & charities",GROUP,high_likelihood,exclude_from_initial_download,37
+"Public sector, education & charities",AUDITED ABRIDGED,medium_likelihood,priority_download,23
+"Public sector, education & charities",AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,13
+"Public sector, education & charities",AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,4
+"Public sector, education & charities",ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,2
+"Public sector, education & charities",FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,2
+"Public sector, education & charities",MEDIUM,high_likelihood,exclude_from_initial_download,2
+Real Estate,MICRO ENTITY,low_likelihood,coverage_sample,252119
+Real Estate,TOTAL EXEMPTION FULL,medium_likelihood,priority_download,201327
+Real Estate,NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,157616
+Real Estate,DORMANT,exclude_or_no_accounts,low_priority_check,108550
+Real Estate,UNAUDITED ABRIDGED,medium_likelihood,priority_download,21219
+Real Estate,MICRO ENTITY,low_likelihood,exclude_from_initial_download,14016
+Real Estate,TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,9356
+Real Estate,NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,8673
+Real Estate,DORMANT,exclude_or_no_accounts,exclude_from_initial_download,8243
+Real Estate,SMALL,medium_likelihood,priority_download,7123
+Real Estate,FULL,high_likelihood,priority_download,3673
+Real Estate,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,3251
+Real Estate,UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,1692
+Real Estate,GROUP,high_likelihood,priority_download,1041
+Real Estate,SMALL,medium_likelihood,exclude_from_initial_download,566
+Real Estate,TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,435
+Real Estate,FULL,high_likelihood,exclude_from_initial_download,248
+Real Estate,MEDIUM,high_likelihood,priority_download,127
+Real Estate,AUDITED ABRIDGED,medium_likelihood,priority_download,111
+Real Estate,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,95
+Real Estate,GROUP,high_likelihood,exclude_from_initial_download,59
+Real Estate,AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,29
+Real Estate,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,25
+Real Estate,FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,4
+Real Estate,MEDIUM,high_likelihood,exclude_from_initial_download,2
+Real Estate,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,exclude_from_initial_download,1
+Real Estate,PARTIAL EXEMPTION,medium_likelihood,priority_download,1
+"Technology, legal & professional",MICRO ENTITY,low_likelihood,coverage_sample,295043
+"Technology, legal & professional",TOTAL EXEMPTION FULL,medium_likelihood,priority_download,181495
+"Technology, legal & professional",NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,149909
+"Technology, legal & professional",DORMANT,exclude_or_no_accounts,low_priority_check,91026
+"Technology, legal & professional",MICRO ENTITY,low_likelihood,exclude_from_initial_download,30258
+"Technology, legal & professional",UNAUDITED ABRIDGED,medium_likelihood,priority_download,20445
+"Technology, legal & professional",TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,16252
+"Technology, legal & professional",NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,11213
+"Technology, legal & professional",DORMANT,exclude_or_no_accounts,exclude_from_initial_download,11159
+"Technology, legal & professional",FULL,high_likelihood,priority_download,9730
+"Technology, legal & professional",SMALL,medium_likelihood,priority_download,7561
+"Technology, legal & professional",AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,5795
+"Technology, legal & professional",GROUP,high_likelihood,priority_download,4923
+"Technology, legal & professional",UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,2390
+"Technology, legal & professional",FULL,high_likelihood,exclude_from_initial_download,807
+"Technology, legal & professional",TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,613
+"Technology, legal & professional",SMALL,medium_likelihood,exclude_from_initial_download,550
+"Technology, legal & professional",MEDIUM,high_likelihood,priority_download,504
+"Technology, legal & professional",GROUP,high_likelihood,exclude_from_initial_download,406
+"Technology, legal & professional",AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,253
+"Technology, legal & professional",FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,96
+"Technology, legal & professional",AUDITED ABRIDGED,medium_likelihood,priority_download,92
+"Technology, legal & professional",MEDIUM,high_likelihood,exclude_from_initial_download,25
+"Technology, legal & professional",ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,18
+"Technology, legal & professional",AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,16
+"Technology, legal & professional",FILING EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,6
+"Technology, legal & professional",PARTIAL EXEMPTION,medium_likelihood,priority_download,2
+Wholesale & Retail,NO ACCOUNTS FILED,exclude_or_no_accounts,low_priority_check,219609
+Wholesale & Retail,MICRO ENTITY,low_likelihood,coverage_sample,191923
+Wholesale & Retail,TOTAL EXEMPTION FULL,medium_likelihood,priority_download,127264
+Wholesale & Retail,DORMANT,exclude_or_no_accounts,low_priority_check,60430
+Wholesale & Retail,MICRO ENTITY,low_likelihood,exclude_from_initial_download,34521
+Wholesale & Retail,NO ACCOUNTS FILED,exclude_or_no_accounts,exclude_from_initial_download,28872
+Wholesale & Retail,UNAUDITED ABRIDGED,medium_likelihood,priority_download,18990
+Wholesale & Retail,TOTAL EXEMPTION FULL,medium_likelihood,exclude_from_initial_download,17188
+Wholesale & Retail,DORMANT,exclude_or_no_accounts,exclude_from_initial_download,12441
+Wholesale & Retail,FULL,high_likelihood,priority_download,5747
+Wholesale & Retail,SMALL,medium_likelihood,priority_download,5332
+Wholesale & Retail,UNAUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,3675
+Wholesale & Retail,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,3156
+Wholesale & Retail,GROUP,high_likelihood,priority_download,1321
+Wholesale & Retail,MEDIUM,high_likelihood,priority_download,1104
+Wholesale & Retail,FULL,high_likelihood,exclude_from_initial_download,658
+Wholesale & Retail,SMALL,medium_likelihood,exclude_from_initial_download,468
+Wholesale & Retail,TOTAL EXEMPTION SMALL,medium_likelihood,exclude_from_initial_download,439
+Wholesale & Retail,GROUP,high_likelihood,exclude_from_initial_download,140
+Wholesale & Retail,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,exclude_from_initial_download,136
+Wholesale & Retail,AUDITED ABRIDGED,medium_likelihood,priority_download,116
+Wholesale & Retail,MEDIUM,high_likelihood,exclude_from_initial_download,67
+Wholesale & Retail,AUDITED ABRIDGED,medium_likelihood,exclude_from_initial_download,34
+Wholesale & Retail,ACCOUNTS TYPE NOT AVAILABLE,exclude_or_no_accounts,low_priority_check,5
+Wholesale & Retail,FILING EXEMPTION SUBSIDIARY,medium_likelihood,priority_download,2
+Wholesale & Retail,PARTIAL EXEMPTION,medium_likelihood,exclude_from_initial_download,2
+Wholesale & Retail,PARTIAL EXEMPTION,medium_likelihood,priority_download,1

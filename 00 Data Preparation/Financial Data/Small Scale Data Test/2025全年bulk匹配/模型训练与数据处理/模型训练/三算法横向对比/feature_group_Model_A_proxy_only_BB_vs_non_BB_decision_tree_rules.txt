@@ -1,0 +1,43 @@
+|--- financial_core_score_raw <= 0.05
+|   |--- primary_sector_Real Estate <= 0.50
+|   |   |--- available_proxy_field_count <= -0.69
+|   |   |   |--- financial_core_score <= -0.14
+|   |   |   |   |--- class: BB
+|   |   |   |--- financial_core_score >  -0.14
+|   |   |   |   |--- class: BB
+|   |   |--- available_proxy_field_count >  -0.69
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: non_BB
+|   |--- primary_sector_Real Estate >  0.50
+|   |   |--- Accounts_AccountCategory_TOTAL EXEMPTION FULL <= 0.50
+|   |   |   |--- Accounts_AccountCategory_FULL <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- Accounts_AccountCategory_FULL >  0.50
+|   |   |   |   |--- class: BB
+|   |   |--- Accounts_AccountCategory_TOTAL EXEMPTION FULL >  0.50
+|   |   |   |--- financial_core_score_raw <= -1.37
+|   |   |   |   |--- class: BB
+|   |   |   |--- financial_core_score_raw >  -1.37
+|   |   |   |   |--- class: BB
+|--- financial_core_score_raw >  0.05
+|   |--- primary_sector_Real Estate <= 0.50
+|   |   |--- financial_core_score_raw <= 0.10
+|   |   |   |--- primary_sector_Wholesale & Retail <= 0.50
+|   |   |   |   |--- class: BB
+|   |   |   |--- primary_sector_Wholesale & Retail >  0.50
+|   |   |   |   |--- class: non_BB
+|   |   |--- financial_core_score_raw >  0.10
+|   |   |   |--- available_proxy_field_count <= -1.34
+|   |   |   |   |--- class: non_BB
+|   |   |   |--- available_proxy_field_count >  -1.34
+|   |   |   |   |--- class: non_BB
+|   |--- primary_sector_Real Estate >  0.50
+|   |   |--- financial_conservative_score_raw <= 0.26
+|   |   |   |--- class: BB
+|   |   |--- financial_conservative_score_raw >  0.26
+|   |   |   |--- Accounts_AccountCategory_FULL <= 0.50
+|   |   |   |   |--- class: non_BB
+|   |   |   |--- Accounts_AccountCategory_FULL >  0.50
+|   |   |   |   |--- class: BB

@@ -1,0 +1,17 @@
+﻿group,files,parsed_files,files_with_turnover,median_selected_turnover,parse_success_rate,turnover_candidate_rate,summary_level,Accounts_AccountCategory,account_category_group,primary_sector
+overall,2058,2058,149,5234889.0,1.0,0.07240038872691934,overall,,,
+,134,134,53,10908611.0,1.0,0.39552238805970147,account_category,FULL,high_likelihood,
+,60,60,6,12460810.5,1.0,0.1,account_category,GROUP,high_likelihood,
+,41,41,39,16524534.0,1.0,0.9512195121951219,account_category,MEDIUM,high_likelihood,
+,970,970,22,6089.0,1.0,0.02268041237113402,account_category,MICRO ENTITY,low_likelihood,
+,15,15,1,762581.0,1.0,0.06666666666666667,account_category,SMALL,medium_likelihood,
+,725,725,26,1416.5,1.0,0.03586206896551724,account_category,TOTAL EXEMPTION FULL,medium_likelihood,
+,113,113,2,1018747.0,1.0,0.017699115044247787,account_category,UNAUDITED ABRIDGED,medium_likelihood,
+,223,223,25,9425820.0,1.0,0.11210762331838565,sector,,,Agriculture
+,255,255,17,2938290.0,1.0,0.06666666666666667,sector,,,Fast growth & emerging sector
+,251,251,24,6469869.0,1.0,0.09561752988047809,sector,,,Healthcare
+,258,258,15,10908611.0,1.0,0.05813953488372093,sector,,,Manufacturing
+,253,253,17,45719.0,1.0,0.06719367588932806,sector,,,"Public sector, education & charities"
+,226,226,10,1630111.0,1.0,0.04424778761061947,sector,,,Real Estate
+,311,311,18,1551220.5,1.0,0.05787781350482315,sector,,,"Technology, legal & professional"
+,281,281,23,12877986.0,1.0,0.08185053380782918,sector,,,Wholesale & Retail

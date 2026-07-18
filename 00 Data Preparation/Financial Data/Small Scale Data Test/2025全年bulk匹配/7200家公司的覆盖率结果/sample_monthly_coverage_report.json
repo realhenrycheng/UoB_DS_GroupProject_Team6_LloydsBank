@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-06-23T14:22:37",
+  "sample_csv": "E:\\000硕士毕设\\财务数据\\accounts_download_sample_stratified.csv",
+  "monthly_dir": "E:\\000硕士毕设\\bulk zip\\monthly",
+  "zip_count": 17,
+  "zip_names": [
+    "Accounts_Monthly_Data-April2025.zip",
+    "Accounts_Monthly_Data-April2026.zip",
+    "Accounts_Monthly_Data-August2025.zip",
+    "Accounts_Monthly_Data-December2025.zip",
+    "Accounts_Monthly_Data-February2025.zip",
+    "Accounts_Monthly_Data-February2026.zip",
+    "Accounts_Monthly_Data-January2025.zip",
+    "Accounts_Monthly_Data-January2026.zip",
+    "Accounts_Monthly_Data-July2025.zip",
+    "Accounts_Monthly_Data-June2025.zip",
+    "Accounts_Monthly_Data-March2025.zip",
+    "Accounts_Monthly_Data-March2026.zip",
+    "Accounts_Monthly_Data-May2025.zip",
+    "Accounts_Monthly_Data-May2026.zip",
+    "Accounts_Monthly_Data-November2025.zip",
+    "Accounts_Monthly_Data-October2025.zip",
+    "Accounts_Monthly_Data-September2025.zip"
+  ],
+  "combined_unique_companies_in_zips": 3876826,
+  "sample_companies": 7200,
+  "matched_companies": 5464,
+  "matched_rate": 0.7588888888888888,
+  "matched_files": 7089,
+  "turnover_companies": 515,
+  "turnover_rate_all_sample": 0.07152777777777777,
+  "turnover_rate_matched": 0.09425329428989751,
+  "turnover_files": 626,
+  "parse_error_count": 0,
+  "by_account_category": [
+    {
+      "group": "MICRO ENTITY",
+      "company_rows": 2400,
+      "matched_companies": 2344,
+      "turnover_companies": 70,
+      "matched_rate": 0.9766666666666667,
+      "turnover_rate_all": 0.029166666666666667,
+      "turnover_rate_matched": 0.029863481228668942
+    },
+    {
+      "group": "TOTAL EXEMPTION FULL",
+      "company_rows": 1981,
+      "matched_companies": 1857,
+      "turnover_companies": 60,
+      "matched_rate": 0.9374053508329127,
+      "turnover_rate_all": 0.03028773346794548,
+      "turnover_rate_matched": 0.03231017770597738
+    },
+    {
+      "group": "FULL",
+      "company_rows": 1595,
+      "matched_companies": 557,
+      "turnover_companies": 217,
+      "matched_rate": 0.3492163009404389,
+      "turnover_rate_all": 0.1360501567398119,
+      "turnover_rate_matched": 0.3895870736086176
+    },
+    {
+      "group": "GROUP",
+      "company_rows": 631,
+      "matched_companies": 240,
+      "turnover_companies": 29,
+      "matched_rate": 0.3803486529318542,
+      "turnover_rate_all": 0.04595879556259905,
+      "turnover_rate_matched": 0.12083333333333333
+    },
+    {
+      "group": "UNAUDITED ABRIDGED",
+      "company_rows": 278,
+      "matched_companies": 270,
+      "turnover_companies": 3,
+      "matched_rate": 0.9712230215827338,
+      "turnover_rate_all": 0.01079136690647482,
+      "turnover_rate_matched": 0.011111111111111112
+    },
+    {
+      "group": "MEDIUM",
+      "company_rows": 174,
+      "matched_companies": 142,
+      "turnover_companies": 133,
+      "matched_rate": 0.8160919540229885,
+      "turnover_rate_all": 0.764367816091954,
+      "turnover_rate_matched": 0.9366197183098591
+    },
+    {
+      "group": "SMALL",
+      "company_rows": 97,
+      "matched_companies": 51,
+      "turnover_companies": 3,
+      "matched_rate": 0.5257731958762887,
+      "turnover_rate_all": 0.030927835051546393,
+      "turnover_rate_matched": 0.058823529411764705
+    },
+    {
+      "group": "AUDIT EXEMPTION SUBSIDIARY",
+      "company_rows": 43,
+      "matched_companies": 2,
+      "turnover_companies": 0,
+      "matched_rate": 0.046511627906976744,
+      "turnover_rate_all": 0.0,
+      "turnover_rate_matched": 0.0
+    },
+    {
+      "group": "AUDITED ABRIDGED",
+      "company_rows": 1,
+      "matched_companies": 1,
+      "turnover_companies": 0,
+      "matched_rate": 1.0,
+      "turnover_rate_all": 0.0,
+      "turnover_rate_matched": 0.0
+    }
+  ],
+  "by_sector": [
+    {
+      "group": "Agriculture",
+      "company_rows": 900,
+      "matched_companies": 749,
+      "turnover_companies": 105,
+      "matched_rate": 0.8322222222222222,
+      "turnover_rate_all": 0.11666666666666667,
+      "turnover_rate_matched": 0.14018691588785046
+    },
+    {
+      "group": "Fast growth & emerging sector",
+      "company_rows": 900,
+      "matched_companies": 669,
+      "turnover_companies": 66,
+      "matched_rate": 0.7433333333333333,
+      "turnover_rate_all": 0.07333333333333333,
+      "turnover_rate_matched": 0.09865470852017937
+    },
+    {
+      "group": "Healthcare",
+      "company_rows": 900,
+      "matched_companies": 672,
+      "turnover_companies": 66,
+      "matched_rate": 0.7466666666666667,
+      "turnover_rate_all": 0.07333333333333333,
+      "turnover_rate_matched": 0.09821428571428571
+    },
+    {
+      "group": "Manufacturing",
+      "company_rows": 900,
+      "matched_companies": 712,
+      "turnover_companies": 66,
+      "matched_rate": 0.7911111111111111,
+      "turnover_rate_all": 0.07333333333333333,
+      "turnover_rate_matched": 0.09269662921348315
+    },
+    {
+      "group": "Public sector, education & charities",
+      "company_rows": 900,
+      "matched_companies": 586,
+      "turnover_companies": 44,
+      "matched_rate": 0.6511111111111111,
+      "turnover_rate_all": 0.04888888888888889,
+      "turnover_rate_matched": 0.07508532423208192
+    },
+    {
+      "group": "Real Estate",
+      "company_rows": 900,
+      "matched_companies": 657,
+      "turnover_companies": 34,
+      "matched_rate": 0.73,
+      "turnover_rate_all": 0.03777777777777778,
+      "turnover_rate_matched": 0.0517503805175038
+    },
+    {
+      "group": "Technology, legal & professional",
+      "company_rows": 900,
+      "matched_companies": 682,
+      "turnover_companies": 39,
+      "matched_rate": 0.7577777777777778,
+      "turnover_rate_all": 0.043333333333333335,
+      "turnover_rate_matched": 0.05718475073313783
+    },
+    {
+      "group": "Wholesale & Retail",
+      "company_rows": 900,
+      "matched_companies": 737,
+      "turnover_companies": 95,
+      "matched_rate": 0.8188888888888889,
+      "turnover_rate_all": 0.10555555555555556,
+      "turnover_rate_matched": 0.12890094979647218
+    }
+  ],
+  "zip_summary": [
+    {
+      "zip_name": "Accounts_Monthly_Data-April2025.zip",
+      "parsed_account_files": 264543,
+      "unique_companies": 263466,
+      "matched_sample_files": 330
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-April2026.zip",
+      "parsed_account_files": 263094,
+      "unique_companies": 261992,
+      "matched_sample_files": 444
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-August2025.zip",
+      "parsed_account_files": 261885,
+      "unique_companies": 260889,
+      "matched_sample_files": 335
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-December2025.zip",
+      "parsed_account_files": 499784,
+      "unique_companies": 498619,
+      "matched_sample_files": 814
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-February2025.zip",
+      "parsed_account_files": 250276,
+      "unique_companies": 249177,
+      "matched_sample_files": 252
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-February2026.zip",
+      "parsed_account_files": 258471,
+      "unique_companies": 257235,
+      "matched_sample_files": 317
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-January2025.zip",
+      "parsed_account_files": 287375,
+      "unique_companies": 286358,
+      "matched_sample_files": 326
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-January2026.zip",
+      "parsed_account_files": 289256,
+      "unique_companies": 288144,
+      "matched_sample_files": 347
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-July2025.zip",
+      "parsed_account_files": 274930,
+      "unique_companies": 273971,
+      "matched_sample_files": 299
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-June2025.zip",
+      "parsed_account_files": 298610,
+      "unique_companies": 297465,
+      "matched_sample_files": 415
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-March2025.zip",
+      "parsed_account_files": 314390,
+      "unique_companies": 313197,
+      "matched_sample_files": 404
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-March2026.zip",
+      "parsed_account_files": 342574,
+      "unique_companies": 341126,
+      "matched_sample_files": 539
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-May2025.zip",
+      "parsed_account_files": 274232,
+      "unique_companies": 273046,
+      "matched_sample_files": 323
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-May2026.zip",
+      "parsed_account_files": 258176,
+      "unique_companies": 257113,
+      "matched_sample_files": 549
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-November2025.zip",
+      "parsed_account_files": 298461,
+      "unique_companies": 297318,
+      "matched_sample_files": 398
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-October2025.zip",
+      "parsed_account_files": 304409,
+      "unique_companies": 303201,
+      "matched_sample_files": 388
+    },
+    {
+      "zip_name": "Accounts_Monthly_Data-September2025.zip",
+      "parsed_account_files": 376964,
+      "unique_companies": 375808,
+      "matched_sample_files": 609
+    }
+  ],
+  "parse_errors_preview": []
+}
