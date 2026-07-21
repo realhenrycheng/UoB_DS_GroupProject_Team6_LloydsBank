@@ -1,0 +1,15 @@
+﻿tier,count,level
+T2_balance_sheet_rich,163937,filing_level
+T3_balance_sheet_partial,7069,filing_level
+T1_observed_turnover,4431,filing_level
+T4_account_category_only,976,filing_level
+T2_balance_sheet_rich,87837,company_best_evidence
+No_matched_accounts,5688,company_best_evidence
+T1_observed_turnover,3183,company_best_evidence
+T3_balance_sheet_partial,2850,company_best_evidence
+T4_account_category_only,442,company_best_evidence
+T2_balance_sheet_rich,88095,company_latest_account
+No_matched_accounts,5688,company_latest_account
+T3_balance_sheet_partial,3300,company_latest_account
+T1_observed_turnover,2365,company_latest_account
+T4_account_category_only,552,company_latest_account
