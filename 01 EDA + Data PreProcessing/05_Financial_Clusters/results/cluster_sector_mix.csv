@@ -1,0 +1,41 @@
+financial_cluster_id,primary_sector,companies,share_within_cluster
+FC01,Agriculture,103,0.008029310882444652
+FC01,Fast growth & emerging sector,1527,0.11903648269410665
+FC01,Healthcare,1109,0.08645151231680699
+FC01,Manufacturing,635,0.04950109136264422
+FC01,"Public sector, education & charities",830,0.06470221390707827
+FC01,Real Estate,3169,0.24703772996570003
+FC01,"Technology, legal & professional",3250,0.2533520424072342
+FC01,Wholesale & Retail,2205,0.17188961646398504
+FC02,Agriculture,209,0.013881509032943678
+FC02,Fast growth & emerging sector,1519,0.10089001062699256
+FC02,Healthcare,736,0.048884165781083955
+FC02,Manufacturing,1047,0.0695403825717322
+FC02,"Public sector, education & charities",539,0.035799681190223163
+FC02,Real Estate,4251,0.28234590860786396
+FC02,"Technology, legal & professional",3359,0.22310042507970246
+FC02,Wholesale & Retail,3396,0.22555791710945802
+FC03,Agriculture,474,0.013646571083088616
+FC03,Fast growth & emerging sector,4035,0.11616859561236828
+FC03,Healthcare,3088,0.08890424368054356
+FC03,Manufacturing,2000,0.05758046870501526
+FC03,"Public sector, education & charities",1309,0.037686416767432486
+FC03,Real Estate,6723,0.1935567455519088
+FC03,"Technology, legal & professional",11753,0.33837162434502216
+FC03,Wholesale & Retail,5352,0.15408533425462084
+FC04,Agriculture,303,0.02414535022710973
+FC04,Fast growth & emerging sector,696,0.055462586660291656
+FC04,Healthcare,584,0.04653757271495737
+FC04,Manufacturing,723,0.05761415252211331
+FC04,"Public sector, education & charities",309,0.02462347597418121
+FC04,Real Estate,5618,0.44768507450792894
+FC04,"Technology, legal & professional",2360,0.1880627938481154
+FC04,Wholesale & Retail,1956,0.15586899354530243
+FC05,Agriculture,272,0.028499580888516344
+FC05,Fast growth & emerging sector,705,0.07386839899413244
+FC05,Healthcare,1031,0.10802598491198659
+FC05,Manufacturing,1577,0.1652347024308466
+FC05,"Public sector, education & charities",411,0.04306370494551551
+FC05,Real Estate,766,0.08025984911986589
+FC05,"Technology, legal & professional",1810,0.18964794635373008
+FC05,Wholesale & Retail,2972,0.3113998323554065
