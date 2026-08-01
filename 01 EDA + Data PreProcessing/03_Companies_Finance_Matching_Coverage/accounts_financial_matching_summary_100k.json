@@ -1,0 +1,21 @@
+{
+  "input_company_csv": "E:\\000硕士毕设\\Haoran_CHENG\\01 Data PreProcessing\\01_CompaniesSelected\\UKcompanies_active_account_category_sample_100k.csv",
+  "accounts_zip_dir": "E:\\000硕士毕设\\财务数据\\Local Large Data\\Accounts Data_2024.7_2026.6",
+  "output_dir": "E:\\000硕士毕设\\公司+财务数据匹配",
+  "selected_companies": 100000,
+  "zip_files": 24,
+  "matched_account_files": 176413,
+  "matched_companies": 94312,
+  "matched_company_rate": 0.94312,
+  "turnover_companies": 3183,
+  "turnover_company_rate_all_selected": 0.03183,
+  "turnover_company_rate_matched": 0.03374968190686233,
+  "companies_with_two_plus_matched_account_periods": 76912,
+  "companies_with_two_plus_financial_evidence_periods": 76423,
+  "companies_with_two_plus_turnover_periods": 1198,
+  "parse_errors": 0,
+  "tier_distribution_file": "E:\\000硕士毕设\\公司+财务数据匹配\\financial_evidence_tier_distribution_100k.csv",
+  "company_summary_file": "E:\\000硕士毕设\\公司+财务数据匹配\\financial_features_company_summary_100k.csv",
+  "turnover_companies_file": "E:\\000硕士毕设\\公司+财务数据匹配\\turnover_companies_100k.csv",
+  "multi_period_companies_file": "E:\\000硕士毕设\\公司+财务数据匹配\\multi_period_companies_100k.csv"
+}
