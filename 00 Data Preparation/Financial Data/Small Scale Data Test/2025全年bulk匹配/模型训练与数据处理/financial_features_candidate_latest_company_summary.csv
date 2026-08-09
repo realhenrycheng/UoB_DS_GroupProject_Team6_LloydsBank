@@ -1,0 +1,11 @@
+﻿metric,value
+candidate_latest_company_rows,28396.0
+unique_companies,28396.0
+latest_t1_model_ready_companies,5111.0
+latest_t1_model_ready_rate,0.17999013945626144
+latest_bb_companies,691.0
+latest_non_bb_companies,4420.0
+company_any_turnover_companies,5208.0
+company_any_turnover_rate,0.18340611353711792
+proxy_unlabelled_companies,23276.0
+parse_ready_rows_without_duplicate_company,1.0

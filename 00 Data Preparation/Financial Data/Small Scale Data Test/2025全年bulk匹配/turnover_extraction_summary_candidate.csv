@@ -1,0 +1,18 @@
+﻿group,files,parsed_files,files_with_turnover,median_selected_turnover,parse_success_rate,turnover_candidate_rate,summary_level,Accounts_AccountCategory,account_category_group,primary_sector
+overall,36595,36595,6210,14514263.5,1.0,0.16969531356742723,overall,,,
+,16,16,2,7173338.5,1.0,0.125,account_category,AUDIT EXEMPTION SUBSIDIARY,medium_likelihood,
+,25,25,0,,1.0,0.0,account_category,AUDITED ABRIDGED,medium_likelihood,
+,8573,8573,3303,15137479.0,1.0,0.38527936544966757,account_category,FULL,high_likelihood,
+,3901,3901,398,15709393.5,1.0,0.10202512176365035,account_category,GROUP,high_likelihood,
+,2544,2544,2327,14578596.0,1.0,0.9147012578616353,account_category,MEDIUM,high_likelihood,
+,853,853,24,2794642.5,1.0,0.02813599062133646,account_category,SMALL,medium_likelihood,
+,18723,18723,150,161953.5,1.0,0.00801153661272232,account_category,TOTAL EXEMPTION FULL,medium_likelihood,
+,1960,1960,6,109190.5,1.0,0.003061224489795918,account_category,UNAUDITED ABRIDGED,medium_likelihood,
+,566,566,161,15351672.0,1.0,0.284452296819788,sector,,,Agriculture
+,2887,2887,730,11208692.0,1.0,0.2528576376861794,sector,,,Fast growth & emerging sector
+,1662,1662,535,7482958.0,1.0,0.32190132370637786,sector,,,Healthcare
+,3613,3613,1551,15352438.0,1.0,0.4292831442014946,sector,,,Manufacturing
+,618,618,151,9369195.0,1.0,0.24433656957928804,sector,,,"Public sector, education & charities"
+,19352,19352,506,920278.0,1.0,0.02614716825134353,sector,,,Real Estate
+,3702,3702,794,12407424.0,1.0,0.2144786601836845,sector,,,"Technology, legal & professional"
+,4195,4195,1782,21269467.5,1.0,0.42479141835518475,sector,,,Wholesale & Retail

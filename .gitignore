@@ -1,17 +1,18 @@
-/data/
-/output/
 /key/
 
 .DS_Store
 **/.DS_Store
 
-# Large local data - keep outside GitHub
+# Files above GitHub's per-file limit, plus raw Accounts archives
 **/Local Large Data/
 **/Accounts Data_2025.1_2026.5/
 **/UKcompanies_8_sectors_cleaned.csv
-**/*.zip
-# Large generated financial tables
-**/*_facts_long*.csv
-**/*_candidate*.csv
-**/candidate_accounts_bulk_matches_all.csv
-**/candidate_accounts_bulk_matches_latest.csv
+**/financial_facts_long_candidate.csv
+/03 Data Output/01 Financial_Scoring/Phase_Two/financial_company_context.csv
+
+# Credentials and local runtime configuration
+*.pem
+*.key
+.env
+.env.*
+.aws/
