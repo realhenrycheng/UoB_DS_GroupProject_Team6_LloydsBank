@@ -1,0 +1,112 @@
+model_id: FIN_BASE
+version: "1.0"
+status: draft
+effective_date: "2026-07-26"
+language: bilingual
+purpose: >
+  Build transparent Deepen, Grow and Defend public-data proxy scores from the
+  latest static financial state and the latest observable annual change.
+scope:
+  include_cluster_adjustment: false
+  include_evidence_tier_adjustment: false
+  include_news: false
+  include_hiring: false
+  supervised_business_need_prediction: false
+
+source_tables:
+  - 01_financial_status_labels_100k.csv
+  - 02_financial_scale_labels_100k.csv
+  - 03_financial_change_labels.csv
+  - 04_financial_transition_labels.csv
+  - 05_financial_data_quality_labels_100k.csv
+
+keys:
+  company: CompanyNumber_norm
+  period_pair:
+    - CompanyNumber_norm
+    - period_t
+    - period_t_plus_1
+
+time_rules:
+  require_latest_period_alignment: true
+  latest_static_field: latest_period_end
+  latest_change_field: period_t_plus_1
+  minimum_gap_days: 270
+  maximum_gap_days: 550
+  require_available_before_snapshot: true
+
+peer_normalisation:
+  primary_group:
+    - primary_sector
+    - Accounts_AccountCategory
+  minimum_group_size: 30
+  fallback_groups:
+    - primary_sector
+    - global
+  eligible_observations_only: true
+
+transformations:
+  HIGH: "100 * max(0, (peer_percentile - 0.50) / 0.50)"
+  LOW: "100 * max(0, (0.50 - peer_percentile) / 0.50)"
+  UP: "HIGH(change) when signed_log_change > 0; otherwise 0"
+  DOWN: "LOW(change) when signed_log_change < 0; otherwise 0"
+  BINARY: "100 when true; 0 when false; null when ineligible"
+  AND: "sqrt(signal_a * signal_b)"
+
+aggregation:
+  signal_to_block: weighted_mean_of_available_signals
+  defend_current_stress: "0.5 * weighted_mean + 0.5 * maximum_signal"
+  block_to_dimension: weighted_mean_using_selected_scenario
+  missing_block_reweighting: true
+  ranking_requires_minimum_coverage: true
+
+eligibility:
+  main_cohort:
+    useful_financial_evidence_flag: true
+    minimum_change_available_field_count: 4
+  minimum_block_coverage: 0.60
+  minimum_dimension_coverage: 0.65
+  insufficient_value: null
+  insufficient_status: INSUFFICIENT_EVIDENCE
+
+dimensions:
+  deepen:
+    mandatory_block: D1_SCALE_COMPLEXITY
+    minimum_additional_blocks: 1
+  grow:
+    mandatory_block: G1_EXPANSION
+    minimum_additional_blocks: 0
+  defend:
+    mandatory_block: F1_CURRENT_STRESS
+    minimum_additional_blocks: 1
+
+scenario_selection:
+  selection_unit: dimension
+  candidates:
+    - EW
+    - BASE
+    - STATIC_FOCUS
+    - DYNAMIC_FOCUS
+    - CONSERVATIVE
+    - OPPORTUNITY_FOCUS
+  decision_rule:
+    - reject_failed_logic_coverage_or_stability
+    - compare_proxy_backtest_where_available
+    - prefer_simpler_scenario_when_confidence_intervals_overlap
+  no_single_combined_meta_score: true
+
+outputs:
+  - deepen_base_score
+  - grow_base_score
+  - defend_base_score
+  - priority_base_score
+  - primary_dimension
+  - secondary_dimension
+  - deepen_coverage
+  - grow_coverage
+  - defend_coverage
+  - top_reason_codes
+  - peer_scope_used
+  - score_status
+  - rule_version
+

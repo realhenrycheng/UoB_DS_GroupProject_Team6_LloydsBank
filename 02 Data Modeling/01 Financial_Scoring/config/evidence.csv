@@ -1,0 +1,9 @@
+evidence_id,source_type,citation,source_url,supports_cn,limitations_cn,review_status
+EV01,academic,"Berger, A. N. & Udell, G. F. (1998), The Economics of Small Business Finance","https://papers.ssrn.com/sol3/Delivery.cfm/98102601.pdf?abstractid=137991","公司生命周期、规模和结构对应不同融资方式","不能从公开财务报表直接推断具体Lloyds产品需求",reviewed
+EV02,academic,"Carpenter, R. E. & Petersen, B. C. (2002), Is the Growth of Small Firms Constrained by Internal Finance?","https://doi.org/10.1162/003465302317411541","小企业资产和就业增长可能受到内部融资约束","研究结论不直接给出本项目权重或阈值",reviewed
+EV03,regulatory_and_academic,"EBA Guidelines on loan origination and monitoring; Altman (1968); Ohlson (1980)","https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/credit-risk/guidelines-loan-origination-and-monitoring?version=2020","权益、流动性、资产覆盖和趋势可用于财务压力评估","本项目字段为公开报表代理且不能复制正式银行信用评估",reviewed
+EV04,academic,"Petersen, M. A. & Rajan, R. G. (1997), Trade Credit: Theories and Evidence","https://www.nber.org/papers/w5602","贸易信贷和债权人关系可反映短期融资活动","creditors_total不等于严格定义的贸易信贷或流动负债",reviewed
+EV05,academic,"Petersen, M. A. & Rajan, R. G. (1994), The Benefits of Lending Relationships","https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.1994.tb04418.x","更深入的银行关系与融资可获得性相关","无法证明公开财务结构等同于真实关系深度",reviewed
+EV06,business_and_method,"Lloyds Working Capital public guidance; project business hypothesis","https://www.lloydsbank.com/business/corporate-banking/working-capital.html","应收账款、固定资产和营运资金结构可对应潜在服务场景","产品映射是代理假设而非已观察需求",reviewed
+EV07,methodology,"OECD/JRC (2008), Handbook on Constructing Composite Indicators","https://www.oecd.org/en/publications/handbook-on-constructing-composite-indicators-methodology-and-user-guide_9789264043466-en.html","支持理论框架、标准化、权重方案和稳健性分析","不提供本项目具体财务权重",reviewed
+

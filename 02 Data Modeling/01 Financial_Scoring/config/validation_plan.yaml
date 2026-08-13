@@ -1,0 +1,99 @@
+validation_id: FIN_BASE_WEIGHT_EXPERIMENT_V1
+version: "1.0"
+status: preregistered_draft
+selection_unit: dimension
+
+candidate_scenarios:
+  - EW
+  - BASE
+  - STATIC_FOCUS
+  - DYNAMIC_FOCUS
+  - CONSERVATIVE
+  - OPPORTUNITY_FOCUS
+
+mandatory_checks:
+  - all_block_weights_sum_to_one_by_scenario_and_dimension
+  - all_within_block_weights_sum_to_one
+  - all_active_signals_have_evidence_id
+  - all_active_signals_have_missing_treatment
+  - required_time_alignment_is_enforced
+  - missing_is_not_treated_as_false
+
+structural_comparison:
+  distribution_metrics:
+    - count
+    - coverage_rate
+    - mean
+    - standard_deviation
+    - p10
+    - median
+    - p90
+    - minimum
+    - maximum
+  concentration_metrics:
+    - maximum_single_signal_contribution
+    - leave_one_signal_out_rank_change
+    - block_to_dimension_spearman
+  subgroup_audits:
+    - primary_sector
+    - Accounts_AccountCategory
+    - financial_cluster_id
+    - financial_evidence_tier
+
+ranking_stability:
+  reference_scenarios:
+    - EW
+    - BASE
+  metrics:
+    - spearman_rank_correlation
+    - kendall_rank_correlation
+    - top_5_percent_jaccard
+    - top_10_percent_jaccard
+    - primary_dimension_switch_rate
+  report_full_matrix: true
+
+historical_proxy_backtest:
+  time_definition: "Score_T uses Static_T and Change_Tminus1_to_T; Outcome uses T_to_Tplus1"
+  prohibit_target_leakage: true
+  defend_targets:
+    - negative_equity_onset_flag
+    - working_capital_deficit_onset_flag
+    - creditor_pressure_onset_flag
+    - negative_equity_persistent_flag
+    - working_capital_deficit_persistent_flag
+  grow_targets:
+    - current_assets_high_growth
+    - fixed_assets_high_growth
+    - employees_high_growth
+    - total_assets_high_growth
+    - multi_indicator_expansion
+  deepen_target: null
+  metrics:
+    binary:
+      - pr_auc
+      - roc_auc
+      - brier_score
+      - top_10_percent_lift
+    continuous:
+      - spearman_correlation
+      - median_future_change_by_score_decile
+  uncertainty:
+    bootstrap_confidence_intervals: true
+    confidence_level: 0.95
+
+selection_protocol:
+  step_1: "Reject scenarios failing logic, coverage, leakage or severe concentration checks."
+  step_2: "Among survivors, compare ranking stability and historical proxy results."
+  step_3: "Select separately for Deepen, Grow and Defend."
+  step_4: "When proxy performance confidence intervals overlap materially, prefer EW or BASE."
+  step_5: "Deepen is selected by robustness, interpretability and expert review because no true target exists."
+  no_combined_meta_weighted_score: true
+
+required_outputs:
+  - scenario_score_distribution.csv
+  - scenario_rank_correlation.csv
+  - scenario_top_decile_overlap.csv
+  - scenario_proxy_backtest.csv
+  - scenario_subgroup_audit.csv
+  - scenario_selection_decision.md
+
