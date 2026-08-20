@@ -9,6 +9,8 @@
 **/UKcompanies_8_sectors_cleaned.csv
 **/financial_facts_long_candidate.csv
 /03 Data Output/01 Financial_Scoring/Phase_Two/financial_company_context.csv
+output
+/02 Data Modeling/baseline_results/
 
 # Credentials and local runtime configuration
 *.pem
@@ -16,3 +18,4 @@
 .env
 .env.*
 .aws/
+
