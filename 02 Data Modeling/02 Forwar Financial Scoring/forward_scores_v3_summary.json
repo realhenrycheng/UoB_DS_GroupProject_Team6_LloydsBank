@@ -1,0 +1,63 @@
+{
+  "input_rows": 81603,
+  "latest_company_rows": 76611,
+  "unique_companies": 76611,
+  "score_version": "V3.0",
+  "calibration_version": "V3.0_oof_all_pairs",
+  "score_coverage": {
+    "deepen": {
+      "numeric_count": 62823,
+      "numeric_rate": 0.820026,
+      "status_counts": {
+        "Complete": 59576,
+        "Insufficient": 13788,
+        "Partial": 3247
+      }
+    },
+    "relative_grow": {
+      "numeric_count": 62701,
+      "numeric_rate": 0.818433,
+      "status_counts": {
+        "Complete": 59939,
+        "Insufficient": 13910,
+        "Partial": 2762
+      }
+    },
+    "defend": {
+      "numeric_count": 72016,
+      "numeric_rate": 0.940022,
+      "status_counts": {
+        "Complete": 59680,
+        "Partial": 12336,
+        "Insufficient": 4595
+      }
+    }
+  },
+  "all_three_complete": 53280,
+  "spearman_complete_scores": {
+    "forward_deepen_score": {
+      "forward_deepen_score": 1.0,
+      "forward_relative_grow_score": 0.005892,
+      "forward_defend_score": -0.213897
+    },
+    "forward_relative_grow_score": {
+      "forward_deepen_score": 0.005892,
+      "forward_relative_grow_score": 1.0,
+      "forward_defend_score": -0.220319
+    },
+    "forward_defend_score": {
+      "forward_deepen_score": -0.213897,
+      "forward_relative_grow_score": -0.220319,
+      "forward_defend_score": 1.0
+    }
+  },
+  "relative_grow_score_diagnostics": {
+    "numeric_count": 62701,
+    "zero_main_score_count": 0,
+    "distinct_score_count": 25908,
+    "largest_tie_count": 23783,
+    "largest_tie_share": 0.379308,
+    "tail_signal_positive_count": 15830
+  },
+  "isotonic_knots": 24683
+}
