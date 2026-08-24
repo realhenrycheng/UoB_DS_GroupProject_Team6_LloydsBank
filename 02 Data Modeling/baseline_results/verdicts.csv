@@ -1,0 +1,12 @@
+﻿metric,n,zero_frac,skill_B3,skill_B2,spearman_B3,decile_spread,verdict
+current_assets,69809,0.049,0.101,0.0007,0.1673,1.3259,"real signal, proceed"
+fixed_assets,40192,0.2399,0.0578,0.0006,0.1618,0.7845,"real signal, proceed"
+creditors_total,74018,0.0652,0.1644,0.0021,0.2207,1.8215,"real signal, proceed"
+equity,78768,0.1274,0.1419,0.0005,0.0585,6.6883,"real signal, proceed"
+net_assets_liabilities,67001,0.0608,0.1339,0.0006,0.0448,6.7045,"real signal, proceed"
+cash,31753,0.0406,0.1498,-0.0002,0.2421,2.0986,"real signal, proceed"
+debtors,26618,0.1121,0.1278,-0.0003,0.1976,1.6111,"real signal, proceed"
+employees,76322,0.7335,0.2558,0.0685,0.281,0.782,"real signal, proceed"
+total_assets_less_current_liabilities,70435,0.0618,0.14,0.0017,0.0881,6.5702,"real signal, proceed"
+net_current_assets_liabilities,74815,0.0548,0.1647,0.0011,0.1266,8.912,"real signal, proceed"
+profit_loss,2916,0.0302,0.1071,-0.0151,0.2803,12.7756,"real signal, proceed"
