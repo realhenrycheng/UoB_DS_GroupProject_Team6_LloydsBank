@@ -8,6 +8,7 @@ preprocessing.py - Preprocessing for financial change prediction
 
 import numpy as np
 import pandas as pd
+import re
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -48,6 +49,7 @@ CAT_COLS = ["primary_sector", "acct_cat_model", "evidence_tier_t"]
 
 NUMERIC_META = ["company_age_at_t", "gap_days", "period_month"]
 BINARY_META = ["is_private_limited", "multi_sic_company"]
+NO_TRANSFORM = ["period_month", "gap_days"]
 
 # Cleaning thresholds for employees
 EMP_CEILING = 1500  # beyond the plausible range
@@ -66,6 +68,14 @@ def signed_log1p(x):
     x = pd.to_numeric(x, errors="coerce")
     return np.sign(x) * np.log1p(np.abs(x))
 
+import re
+
+def normalise_company_number(s):
+    """
+    strip non-alphanumerics, uppercase, and zero-pad pure digits to eight characters.
+    """
+    s = re.sub(r"[^A-Za-z0-9]", "", str(s)).upper()
+    return s.zfill(8) if s.isdigit() else s
 
 # ---------------------------------------------------------------------------
 # Layer 1: global cleaning
@@ -210,9 +220,10 @@ def build_matrix(frame, variant, fit_stats=None, peer_pct=False):
         return X, CAT_COLS, stats
 
     # ====== ridge branch only ===========
-    num_cols = [c for c in X.columns if not c.endswith("_missing")
-                and c not in BINARY_META]
-
+    num_cols = [c for c in X.columns
+                if not c.endswith("_missing")
+                and c not in BINARY_META
+                and c not in NO_TRANSFORM]
     # Clipping extreme values for linear coefficients
     if fitting:
         stats["winsor"] = {c: (X[c].quantile(WINSOR_LO), X[c].quantile(WINSOR_HI))
@@ -229,16 +240,22 @@ def build_matrix(frame, variant, fit_stats=None, peer_pct=False):
         imp = {}
         for c in num_cols:
             by_group = X[c].groupby(groups, observed=True)
-            if (by_group.count() >= MIN_GROUP_OBS).all():
-                imp[c] = ("group", by_group.median().to_dict(), X[c].median())
-            else:
-                imp[c] = ("global", None, X[c].median())
+            counts = by_group.count()
+            med = by_group.median()
+            # Per group: use the group median where observations suffice, else fall back
+            table = {g: med[g] for g in counts.index if counts[g] >= MIN_GROUP_OBS}
+            imp[c] = ("group", table, X[c].median())
         stats["impute"] = imp
     for c, (kind, table, fallback) in stats["impute"].items():
         if c not in X.columns:
             continue
         filler = groups.map(table).fillna(fallback) if kind == "group" else fallback
         X[c] = X[c].fillna(filler)
+    if fitting:
+        stats["impute_simple"] = {c: X[c].median() for c in NO_TRANSFORM if c in X.columns}
+    for c, v in stats["impute_simple"].items():
+        if c in X.columns:
+            X[c] = X[c].fillna(v)
 
     # One-hot: the category set is fixed on the training fold. 
     # Categories absent from the validation fold are added as zero columns.
